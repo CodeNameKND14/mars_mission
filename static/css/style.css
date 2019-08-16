@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    color: rgb(43, 40, 40)
+}
+/*body {
+    background: url(img/background_img.jpg);
+    background-size: cover;
+}*/
+.navbar {
+    padding: .8rem;   
+}
+.navbar-nav li{
+    padding:  20px;
+
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height:100%;
+}
+.card-img-top{
+    width: 100%;
+    height:100%;
+
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 10px #000;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+.carousel-caption h5 h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 10px #000;
+    padding-bottom: 1rem;
+    color: azure;
+   outline-color: black;
+   width: 100%;
+   height: auto;
+}
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+    background-color: #3f3f3f;
+    color: beige
+}
+.padding{
+    padding-bottom: 2rem;
+
+}
+.mars {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2 rem;
+}
+.img-fixed {
+    width: 100%;
+    height: auto;
+}
+.grey{
+    background-color: #3f3f3f;
+}
+.fun{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: rgb(56, 53, 53);
+    color:rgb(223, 213, 213) ;
+
+}
+.gif{
+    max-width: 100%;
+    width: 100%;
+    height:100%;
+}
+.card{
+    width: 100%;
+    height:100%;
+
+}
+footer {
+    background-color: #3f3f3f;
+    color:  #d5d5d5;
+    padding: 2rem;
+}
+hr.light{
+    boarder-top: 1px solid  #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1 rem;
+
+}
+
+@media (max-width: 768px){
+    .carousel-caption h1{
+        font-size: 350%;
+    
+    }
+    
+    .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 95%;
+        padding: 8px 14px;
+
+    }
+    .carousel-caption h5 h3{
+        font-size: 200%;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px 10px #000;
+        padding-bottom: 1rem;
+        color: azure;
+       outline-color: black;
+    }
+    .display-4{
+        font-size: 200%
+
+    }
+
+}
+@media(max-width: 576px){
+    .carousel-indicators {
+        display: none;
+    }
+}
