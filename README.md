@@ -48,5 +48,5 @@ In this assignment, I built a web application that scrapes various websites for 
 
 
 
-### Step 2 - MongoDB and Flask Application
+# Step 2 - MongoDB and Flask Application
 - Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
