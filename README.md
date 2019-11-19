@@ -1,8 +1,7 @@
 # Mission to Mars
 
 ![1-Logo](landing.png)
-
-In this assignment, I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
+I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
 
 # Step 1 - Scraping
 - Completed the initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
