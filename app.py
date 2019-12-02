@@ -15,7 +15,7 @@ client = pymongo.MongoClient(conn)
 # create/use database 
 db = client.mars_db
 
-# create/use colection
+# create/use collection
 collection = db.mars_data
 
 #mongo = PyMongo(app, uri='mongodb://localhost:27017/mars_news')
