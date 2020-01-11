@@ -90,7 +90,7 @@ def mars_scrape():
     html_mars_table = html_mars_table.replace('\n', '')
     mars_info_dict["facts"] = html_mars_table
     
-    # # Part 5.### Mars Hemispheres
+    # # Part 4### Mars Hemispheres
     #------------------------------- 
     # to obtain high resolution images for each of Mar's hemispheres.
     url4 = "https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars"
