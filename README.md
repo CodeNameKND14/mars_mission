@@ -4,7 +4,7 @@
 
 I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
 
-# Step 1 - Scraping
+# Scraping
 - Completed the initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
 - Created a Jupyter Notebook file called mission_to_mars.ipynb and use this to complete all of your scraping and analysis tasks. 
@@ -49,5 +49,5 @@ I built a web application that scrapes various websites for data related to the 
 
 
 
-# Step 2 - MongoDB and Flask Application
+# MongoDB and Flask Application
 - Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
